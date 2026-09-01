@@ -122,6 +122,12 @@ Open or refresh LinkedIn.
 
 The Franchise-Info brand icon will appear in the LinkedIn navigation for the current prototype.
 
+## Test login 
+
+Not applicable. LinkedIn Page Monitor does not maintain a separate user account or password. The extension operates with the reviewer's authenticated LinkedIn session and does not collect or store the reviewer's LinkedIn credentials.
+
+Version 1.3 demonstrates the user experience and monitoring workflow that the proposed Community Management API integration is intended to support.
+
 ## Repository documentation
 
 -   `CHANGELOG.md` --- release history.
