@@ -99,8 +99,10 @@ We are requesting Community Management API access to support our agency's employ
 The initial integration is intended to:
 
 Identify Company Pages the authenticated user is authorized to administer.
-Retrieve permitted Company Page and community activity required to support the monitoring workflow.
-Use that authorized activity data to determine when the Company Page indicator should alert the administrator to activity requiring review.
+
+Retrieve permitted Company Page and community activity available through the approved Community Management APIs to support the monitoring workflow.
+
+Use available authorized activity data to determine when the Company Page indicator should alert the administrator to activity requiring review.
 
 LinkedIn Page Monitor will not use API access to automate likes, comments, reposts, or other member engagement.
 
