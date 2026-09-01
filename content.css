@@ -1,0 +1,81 @@
+#fi-linkedin-toolbar-button.fi-toolbar-item {
+  list-style: none !important;
+  display: flex !important;
+  align-items: stretch !important;
+  margin: 0 2px !important;
+  padding: 0 !important;
+}
+
+#fi-linkedin-toolbar-button .fi-toolbar-link {
+  box-sizing: border-box !important;
+  min-width: 82px !important;
+  height: 52px !important;
+  padding: 2px 8px 3px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 1px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 14px !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  cursor: pointer !important;
+  transform: translateY(-1px) !important;
+}
+
+#fi-linkedin-toolbar-button .fi-toolbar-link:hover,
+#fi-linkedin-toolbar-button .fi-toolbar-link:focus-visible {
+  color: rgba(0, 0, 0, 0.9) !important;
+  text-decoration: none !important;
+}
+
+#fi-linkedin-toolbar-button .fi-toolbar-icon-wrap {
+  position: relative !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 24px !important;
+  height: 24px !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  box-sizing: border-box !important;
+  transition: outline-color 120ms ease, box-shadow 120ms ease !important;
+}
+
+#fi-linkedin-toolbar-button .fi-toolbar-logo {
+  width: 27px !important;
+  height: 27px !important;
+  display: block !important;
+  object-fit: contain !important;
+  border-radius: 2px !important;
+}
+
+/* Our notification state is a ring on our own control, not a LinkedIn-style dot. */
+#fi-linkedin-toolbar-button.fi-has-new-post .fi-toolbar-icon-wrap {
+  outline: 2px solid #0a66c2 !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 1px rgba(10, 102, 194, 0.12) !important;
+}
+
+#fi-linkedin-toolbar-button .fi-toolbar-label {
+  display: block !important;
+  max-width: 90px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+@media (max-width: 1100px) {
+  #fi-linkedin-toolbar-button .fi-toolbar-link {
+    min-width: 50px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+
+  #fi-linkedin-toolbar-button .fi-toolbar-label {
+    display: none !important;
+  }
+}
