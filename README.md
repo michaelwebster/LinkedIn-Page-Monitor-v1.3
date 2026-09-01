@@ -29,11 +29,11 @@ Provides diagnostic information for development and testing.
 
 Normal state — persistent Company Page shortcut
 
-
+![Company Page shortcut in LinkedIn navigation](assets/toolbar-normal.png)
 
 New activity state — Company Page icon highlighted
 
-[blue-outline screenshot]
+![Company Page shortcut in LinkedIn navigation](assets/toolbar-normal.png)
 
 The Company Page brand icon provides direct access to the Page. When relevant unseen activity is detected, the icon changes visual state so the administrator knows there is activity requiring review.
 
