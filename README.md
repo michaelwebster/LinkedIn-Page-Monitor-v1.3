@@ -25,7 +25,7 @@ Recognizes original Company Page posts and relevant repost activity.
 Preserves notification state as the user navigates LinkedIn.
 Provides diagnostic information for development and testing.
 
-##User interface
+## User interface
 
 Normal state — persistent Company Page shortcut
 
