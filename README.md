@@ -78,6 +78,7 @@ The intended production implementation will use LinkedIn authentication, authori
 
 Detailed information about the prototype detection implementation is maintained in DEVELOPMENT.md.
 
+
 ## Prototype limitations
 
 Version 1.3 is currently configured specifically for Franchise-Info LLC.
@@ -90,6 +91,16 @@ The extension does not automate LinkedIn engagement actions.
 ## Current monitored page
 
 `https://www.linkedin.com/company/franchise-info-sponsored/posts/?feedView=all&viewAsMember=true`
+
+## Data handling and automation
+
+Version 1.3 stores its monitoring and notification state locally in the user's browser. The prototype does not send monitored LinkedIn activity to an external application server.
+
+The extension does not automate likes, comments, reposts, messages, connection requests, or other LinkedIn engagement. User actions on LinkedIn remain user initiated.
+
+Version 1.3 uses a temporary periodic background check as part of the proof-of-concept activity-monitoring mechanism. 
+
+We are requesting Community Management API access so that supported production monitoring can use LinkedIn's authorized APIs rather than relying on this prototype mechanism.
 
     
 ## Community Management API access requested
