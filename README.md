@@ -87,18 +87,6 @@ The extension does not automate LinkedIn engagement actions.
 
 `https://www.linkedin.com/company/franchise-info-sponsored/posts/?feedView=all&viewAsMember=true`
 
-## Current limitations
-
--   v1.3 is hard-coded for Franchise-Info rather than user-configurable.
--   LinkedIn is a React application and can change its DOM, class names,
-    navigation structure, or background responses without notice.
--   Rendered-DOM detection requires LinkedIn to have rendered the
-    relevant content.
--   Background checks may miss activity that LinkedIn loads only after
-    JavaScript runs.
--   The extension does not use an official LinkedIn API.
--   The extension does not automate likes, comments, reposts, or other
-    engagement.
     
 ## Community Management API access requested
 
